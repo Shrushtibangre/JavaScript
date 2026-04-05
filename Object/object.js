@@ -1,3 +1,18 @@
+let shrushti={
+    name : "krishna",
+    age: 22,
+    height: 5.2,
+    weight:48,
+    details : function()
+    {
+        console.log("greeting from details function");
+    }
+
+};
+
+console.log(shrushti);
+shrushti.details(shrushti);
+
 // let obj={
 //     name:"Shrushti",
 //     age:21,
